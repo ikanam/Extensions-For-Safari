@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC4AADA8E3B6A61F1C111FB /* Pods_ExtensionsForSafari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1365CA4885D9A94EBE68004 /* Pods_ExtensionsForSafari.framework */; };
+		947AB3181D767B5700B427D8 /* CodeSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AB3171D767B5700B427D8 /* CodeSnippet.m */; };
+		94916ABF1D76C09100181750 /* Inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 94916ABE1D76C09100181750 /* Inject.js */; };
+		94916AC31D76C55600181750 /* CodeSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AB3171D767B5700B427D8 /* CodeSnippet.m */; };
+		94916AC41D76C55C00181750 /* CodeSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 947AB3161D767B5700B427D8 /* CodeSnippet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94916ACA1D76CA7C00181750 /* SnippetTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94916AC71D76CA7C00181750 /* SnippetTableViewCell.h */; };
+		94916ACB1D76CA7C00181750 /* SnippetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94916AC81D76CA7C00181750 /* SnippetTableViewCell.m */; };
+		94916ACC1D76CA7C00181750 /* SnippetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94916AC91D76CA7C00181750 /* SnippetTableViewCell.xib */; };
+		94916ACD1D76CAF600181750 /* SnippetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94916AC91D76CA7C00181750 /* SnippetTableViewCell.xib */; };
+		94916ACE1D76CAF900181750 /* SnippetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94916AC81D76CA7C00181750 /* SnippetTableViewCell.m */; };
+		94916ACF1D76DB2700181750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E850AE1D75759C0012027E /* Assets.xcassets */; };
+		9493E9DD1D766CEE006B4A4B /* SnippetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493E9DC1D766CEE006B4A4B /* SnippetsTableViewController.m */; };
+		94E850A41D75759C0012027E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E850A31D75759C0012027E /* main.m */; };
+		94E850A71D75759C0012027E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E850A61D75759C0012027E /* AppDelegate.m */; };
+		94E850AD1D75759C0012027E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E850AB1D75759C0012027E /* Main.storyboard */; };
+		94E850AF1D75759C0012027E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E850AE1D75759C0012027E /* Assets.xcassets */; };
+		94E850B21D75759C0012027E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E850B01D75759C0012027E /* LaunchScreen.storyboard */; };
+		94E850C11D7575BE0012027E /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E850C01D7575BE0012027E /* ActionViewController.m */; };
+		94E850C41D7575BE0012027E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E850C21D7575BE0012027E /* MainInterface.storyboard */; };
+		94E850C81D7575BE0012027E /* ExtensionsForSafariAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94E850BD1D7575BE0012027E /* ExtensionsForSafariAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94E850CE1D75760F0012027E /* CodeMirror in Resources */ = {isa = PBXBuildFile; fileRef = 94E850CD1D75760F0012027E /* CodeMirror */; };
+		94E850CF1D75760F0012027E /* CodeMirror in Resources */ = {isa = PBXBuildFile; fileRef = 94E850CD1D75760F0012027E /* CodeMirror */; };
+		94E850D21D7576C40012027E /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E850D11D7576C40012027E /* EditorViewController.m */; };
+		CA316401A16A079C4A6FA837 /* Pods_ExtensionsForSafariAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9EF2EB8F547DEDA950A56B /* Pods_ExtensionsForSafariAction.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E850C61D7575BE0012027E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E850971D75759C0012027E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E850BC1D7575BE0012027E;
+			remoteInfo = ExtensionsForSafariAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94E850CC1D7575BE0012027E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94E850C81D7575BE0012027E /* ExtensionsForSafariAction.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		138DD21EB9F47D0C2B736A60 /* Pods-ExtensionsForSafariAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsForSafariAction.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsForSafariAction/Pods-ExtensionsForSafariAction.release.xcconfig"; sourceTree = "<group>"; };
+		4D07D1B8708D4E1CA0129F99 /* Pods-ExtensionsForSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsForSafari.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsForSafari/Pods-ExtensionsForSafari.release.xcconfig"; sourceTree = "<group>"; };
+		5CBE8BC6EE4505EA492D9E16 /* Pods-ExtensionsForSafari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsForSafari.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsForSafari/Pods-ExtensionsForSafari.debug.xcconfig"; sourceTree = "<group>"; };
+		947AB3161D767B5700B427D8 /* CodeSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeSnippet.h; sourceTree = "<group>"; };
+		947AB3171D767B5700B427D8 /* CodeSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSnippet.m; sourceTree = "<group>"; };
+		94916ABC1D76BE0700181750 /* ExtensionsForSafari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ExtensionsForSafari.entitlements; sourceTree = "<group>"; };
+		94916ABD1D76BE2900181750 /* ExtensionsForSafariAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ExtensionsForSafariAction.entitlements; sourceTree = "<group>"; };
+		94916ABE1D76C09100181750 /* Inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Inject.js; sourceTree = "<group>"; };
+		94916AC71D76CA7C00181750 /* SnippetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetTableViewCell.h; sourceTree = "<group>"; };
+		94916AC81D76CA7C00181750 /* SnippetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetTableViewCell.m; sourceTree = "<group>"; };
+		94916AC91D76CA7C00181750 /* SnippetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnippetTableViewCell.xib; sourceTree = "<group>"; };
+		9493E9DB1D766CEE006B4A4B /* SnippetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetsTableViewController.h; sourceTree = "<group>"; };
+		9493E9DC1D766CEE006B4A4B /* SnippetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetsTableViewController.m; sourceTree = "<group>"; };
+		94E8509F1D75759C0012027E /* ExtensionsForSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionsForSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E850A31D75759C0012027E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94E850A51D75759C0012027E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94E850A61D75759C0012027E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94E850AC1D75759C0012027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94E850AE1D75759C0012027E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E850B11D75759C0012027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94E850B31D75759C0012027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E850BD1D7575BE0012027E /* ExtensionsForSafariAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExtensionsForSafariAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E850BF1D7575BE0012027E /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		94E850C01D7575BE0012027E /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		94E850C31D7575BE0012027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		94E850C51D7575BE0012027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E850CD1D75760F0012027E /* CodeMirror */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CodeMirror; sourceTree = "<group>"; };
+		94E850D01D7576C40012027E /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		94E850D11D7576C40012027E /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		BE9EF2EB8F547DEDA950A56B /* Pods_ExtensionsForSafariAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionsForSafariAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC182BEBBB2FAF996D2E62B2 /* Pods-ExtensionsForSafariAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsForSafariAction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsForSafariAction/Pods-ExtensionsForSafariAction.debug.xcconfig"; sourceTree = "<group>"; };
+		E1365CA4885D9A94EBE68004 /* Pods_ExtensionsForSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionsForSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E8509C1D75759C0012027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4AADA8E3B6A61F1C111FB /* Pods_ExtensionsForSafari.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E850BA1D7575BE0012027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA316401A16A079C4A6FA837 /* Pods_ExtensionsForSafariAction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94E850961D75759C0012027E = {
+			isa = PBXGroup;
+			children = (
+				94E850A11D75759C0012027E /* ExtensionsForSafari */,
+				94E850BE1D7575BE0012027E /* ExtensionsForSafariAction */,
+				94E850A01D75759C0012027E /* Products */,
+				A360ABD1295981E152A2380B /* Frameworks */,
+				F0B44F539E2CDE09DD33937C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		94E850A01D75759C0012027E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E8509F1D75759C0012027E /* ExtensionsForSafari.app */,
+				94E850BD1D7575BE0012027E /* ExtensionsForSafariAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E850A11D75759C0012027E /* ExtensionsForSafari */ = {
+			isa = PBXGroup;
+			children = (
+				94916ABC1D76BE0700181750 /* ExtensionsForSafari.entitlements */,
+				94E850CD1D75760F0012027E /* CodeMirror */,
+				94E850A51D75759C0012027E /* AppDelegate.h */,
+				94E850A61D75759C0012027E /* AppDelegate.m */,
+				947AB3161D767B5700B427D8 /* CodeSnippet.h */,
+				947AB3171D767B5700B427D8 /* CodeSnippet.m */,
+				94E850D01D7576C40012027E /* EditorViewController.h */,
+				94E850D11D7576C40012027E /* EditorViewController.m */,
+				9493E9DB1D766CEE006B4A4B /* SnippetsTableViewController.h */,
+				9493E9DC1D766CEE006B4A4B /* SnippetsTableViewController.m */,
+				94916AC71D76CA7C00181750 /* SnippetTableViewCell.h */,
+				94916AC81D76CA7C00181750 /* SnippetTableViewCell.m */,
+				94916AC91D76CA7C00181750 /* SnippetTableViewCell.xib */,
+				94E850AB1D75759C0012027E /* Main.storyboard */,
+				94E850AE1D75759C0012027E /* Assets.xcassets */,
+				94E850B01D75759C0012027E /* LaunchScreen.storyboard */,
+				94E850B31D75759C0012027E /* Info.plist */,
+				94E850A21D75759C0012027E /* Supporting Files */,
+			);
+			path = ExtensionsForSafari;
+			sourceTree = "<group>";
+		};
+		94E850A21D75759C0012027E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E850A31D75759C0012027E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94E850BE1D7575BE0012027E /* ExtensionsForSafariAction */ = {
+			isa = PBXGroup;
+			children = (
+				94916ABD1D76BE2900181750 /* ExtensionsForSafariAction.entitlements */,
+				94E850BF1D7575BE0012027E /* ActionViewController.h */,
+				94E850C01D7575BE0012027E /* ActionViewController.m */,
+				94916ABE1D76C09100181750 /* Inject.js */,
+				94E850C21D7575BE0012027E /* MainInterface.storyboard */,
+				94E850C51D7575BE0012027E /* Info.plist */,
+			);
+			path = ExtensionsForSafariAction;
+			sourceTree = "<group>";
+		};
+		A360ABD1295981E152A2380B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1365CA4885D9A94EBE68004 /* Pods_ExtensionsForSafari.framework */,
+				BE9EF2EB8F547DEDA950A56B /* Pods_ExtensionsForSafariAction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B44F539E2CDE09DD33937C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE8BC6EE4505EA492D9E16 /* Pods-ExtensionsForSafari.debug.xcconfig */,
+				4D07D1B8708D4E1CA0129F99 /* Pods-ExtensionsForSafari.release.xcconfig */,
+				CC182BEBBB2FAF996D2E62B2 /* Pods-ExtensionsForSafariAction.debug.xcconfig */,
+				138DD21EB9F47D0C2B736A60 /* Pods-ExtensionsForSafariAction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94916AC11D76C52F00181750 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94916ACA1D76CA7C00181750 /* SnippetTableViewCell.h in Headers */,
+				94916AC41D76C55C00181750 /* CodeSnippet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94E8509E1D75759C0012027E /* ExtensionsForSafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E850B61D75759C0012027E /* Build configuration list for PBXNativeTarget "ExtensionsForSafari" */;
+			buildPhases = (
+				734FB0945C2205DB31751B36 /* [CP] Check Pods Manifest.lock */,
+				94E8509B1D75759C0012027E /* Sources */,
+				94E8509C1D75759C0012027E /* Frameworks */,
+				94E8509D1D75759C0012027E /* Resources */,
+				94E850CC1D7575BE0012027E /* Embed App Extensions */,
+				EB68A9AA89583BF566B4A796 /* [CP] Embed Pods Frameworks */,
+				CCE0E1DADF3BE363BA8704A2 /* [CP] Copy Pods Resources */,
+				94916AC11D76C52F00181750 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E850C71D7575BE0012027E /* PBXTargetDependency */,
+			);
+			name = ExtensionsForSafari;
+			productName = ExtensionsForSafari;
+			productReference = 94E8509F1D75759C0012027E /* ExtensionsForSafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E850BC1D7575BE0012027E /* ExtensionsForSafariAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E850C91D7575BE0012027E /* Build configuration list for PBXNativeTarget "ExtensionsForSafariAction" */;
+			buildPhases = (
+				2DC956EB58C5F05FB97F72FE /* [CP] Check Pods Manifest.lock */,
+				94E850B91D7575BE0012027E /* Sources */,
+				94E850BA1D7575BE0012027E /* Frameworks */,
+				94E850BB1D7575BE0012027E /* Resources */,
+				0579F1876601F9C7BDAFD501 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtensionsForSafariAction;
+			productName = ExtensionsForSafariAction;
+			productReference = 94E850BD1D7575BE0012027E /* ExtensionsForSafariAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E850971D75759C0012027E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JerryTian;
+				TargetAttributes = {
+					94E8509E1D75759C0012027E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LG59953R35;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					94E850BC1D7575BE0012027E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LG59953R35;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 94E8509A1D75759C0012027E /* Build configuration list for PBXProject "ExtensionsForSafari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E850961D75759C0012027E;
+			productRefGroup = 94E850A01D75759C0012027E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E8509E1D75759C0012027E /* ExtensionsForSafari */,
+				94E850BC1D7575BE0012027E /* ExtensionsForSafariAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E8509D1D75759C0012027E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E850CE1D75760F0012027E /* CodeMirror in Resources */,
+				94E850B21D75759C0012027E /* LaunchScreen.storyboard in Resources */,
+				94E850AF1D75759C0012027E /* Assets.xcassets in Resources */,
+				94E850AD1D75759C0012027E /* Main.storyboard in Resources */,
+				94916ACC1D76CA7C00181750 /* SnippetTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E850BB1D7575BE0012027E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E850CF1D75760F0012027E /* CodeMirror in Resources */,
+				94916ABF1D76C09100181750 /* Inject.js in Resources */,
+				94E850C41D7575BE0012027E /* MainInterface.storyboard in Resources */,
+				94916ACD1D76CAF600181750 /* SnippetTableViewCell.xib in Resources */,
+				94916ACF1D76DB2700181750 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0579F1876601F9C7BDAFD501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExtensionsForSafariAction/Pods-ExtensionsForSafariAction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC956EB58C5F05FB97F72FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		734FB0945C2205DB31751B36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE0E1DADF3BE363BA8704A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExtensionsForSafari/Pods-ExtensionsForSafari-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB68A9AA89583BF566B4A796 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExtensionsForSafari/Pods-ExtensionsForSafari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E8509B1D75759C0012027E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E850A71D75759C0012027E /* AppDelegate.m in Sources */,
+				94916ACB1D76CA7C00181750 /* SnippetTableViewCell.m in Sources */,
+				9493E9DD1D766CEE006B4A4B /* SnippetsTableViewController.m in Sources */,
+				947AB3181D767B5700B427D8 /* CodeSnippet.m in Sources */,
+				94E850A41D75759C0012027E /* main.m in Sources */,
+				94E850D21D7576C40012027E /* EditorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E850B91D7575BE0012027E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E850C11D7575BE0012027E /* ActionViewController.m in Sources */,
+				94916ACE1D76CAF900181750 /* SnippetTableViewCell.m in Sources */,
+				94916AC31D76C55600181750 /* CodeSnippet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E850C71D7575BE0012027E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E850BC1D7575BE0012027E /* ExtensionsForSafariAction */;
+			targetProxy = 94E850C61D7575BE0012027E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94E850AB1D75759C0012027E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E850AC1D75759C0012027E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94E850B01D75759C0012027E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E850B11D75759C0012027E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94E850C21D7575BE0012027E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E850C31D7575BE0012027E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94E850B41D75759C0012027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E850B51D75759C0012027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E850B71D75759C0012027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBE8BC6EE4505EA492D9E16 /* Pods-ExtensionsForSafari.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionsForSafari/ExtensionsForSafari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ExtensionsForSafari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrytian.ExtensionsForSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94E850B81D75759C0012027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D07D1B8708D4E1CA0129F99 /* Pods-ExtensionsForSafari.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionsForSafari/ExtensionsForSafari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ExtensionsForSafari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrytian.ExtensionsForSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94E850CA1D7575BE0012027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC182BEBBB2FAF996D2E62B2 /* Pods-ExtensionsForSafariAction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ActionIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionsForSafariAction/ExtensionsForSafariAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ExtensionsForSafariAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrytian.ExtensionsForSafari.Action;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94E850CB1D7575BE0012027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138DD21EB9F47D0C2B736A60 /* Pods-ExtensionsForSafariAction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ActionIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionsForSafariAction/ExtensionsForSafariAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ExtensionsForSafariAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerrytian.ExtensionsForSafari.Action;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E8509A1D75759C0012027E /* Build configuration list for PBXProject "ExtensionsForSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E850B41D75759C0012027E /* Debug */,
+				94E850B51D75759C0012027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E850B61D75759C0012027E /* Build configuration list for PBXNativeTarget "ExtensionsForSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E850B71D75759C0012027E /* Debug */,
+				94E850B81D75759C0012027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E850C91D7575BE0012027E /* Build configuration list for PBXNativeTarget "ExtensionsForSafariAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E850CA1D7575BE0012027E /* Debug */,
+				94E850CB1D7575BE0012027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94E850971D75759C0012027E /* Project object */;
+}

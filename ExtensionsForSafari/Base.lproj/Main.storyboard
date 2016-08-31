@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nWc-D4-Nxp">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Code Snippets-->
+        <scene sceneID="wL8-zb-N6k">
+            <objects>
+                <tableViewController id="bWn-iP-Ojy" customClass="SnippetsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ilb-Z1-76w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="bWn-iP-Ojy" id="kKd-Kx-BBo"/>
+                            <outlet property="delegate" destination="bWn-iP-Ojy" id="ikU-1r-WYy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Code Snippets" id="5mo-ro-1L6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mX4-El-G4B">
+                            <connections>
+                                <action selector="didTapAddSnippetButton:" destination="bWn-iP-Ojy" id="ebm-9D-2bt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="spy-0j-Vet" kind="show" identifier="ShowEditorSegue" id="8uK-2c-Tzs"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPJ-pf-xuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="402"/>
+        </scene>
+        <!--Editor-->
+        <scene sceneID="7Xp-as-bjy">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="spy-0j-Vet" customClass="EditorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wA2-IT-g75"/>
+                        <viewControllerLayoutGuide type="bottom" id="5K7-hY-AGe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8pz-X5-sSX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.15686274509803921" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Editor" id="hrV-z4-UQs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbf-rA-Lzo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="402"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yCG-Vo-s2r">
+            <objects>
+                <navigationController id="nWc-D4-Nxp" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DSw-xd-8No">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bWn-iP-Ojy" kind="relationship" relationship="rootViewController" id="oAC-Oi-6XQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dep-dZ-TeB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="402"/>
+        </scene>
+    </scenes>
+</document>

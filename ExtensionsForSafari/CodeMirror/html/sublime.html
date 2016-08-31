@@ -1,0 +1,53 @@
+<html>
+<title>Editor</title>
+<meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="../lib/codemirror.css">
+<link rel="stylesheet" href="../theme/monokai.css">
+<script src="../addon/edit/closebrackets.js"></script>
+<script src="../lib/codemirror.js"></script>
+<script src="../mode/javascript/javascript.js"></script>
+<style type="text/css">
+  body {
+      margin: 0px;
+      padding: 0px;
+  }
+  .CodeMirror {
+      height: 100%;
+      width: 100%;
+      font-size: 16px;
+  }
+</style>
+
+<body>
+<textarea id = "code">
+</textarea>
+</body>
+
+<script>
+  var myTextarea = document.getElementById("code");
+  var editor = CodeMirror.fromTextArea(myTextarea, {
+    value: "",
+    lineNumbers: true,
+    mode: "javascript",
+    theme: "monokai",
+    lineWrapping: true,
+    tabSize: 2
+  });
+  
+  
+  editor.on("change", function (cm, change){
+    var message = {'content' : escape(cm.getValue())};
+    window.webkit.messageHandlers.CodeMirrorChangeEvent.postMessage(message);
+  });
+
+  function setCode(code) {
+    editor.setValue(unescape(code));
+  }
+
+  function getCode() {
+    return editor.getValue();
+  }
+
+</script>
+</html>
